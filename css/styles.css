@@ -60,7 +60,20 @@ label {
 div > input, textarea {
 	border-radius: 5px;
 	margin-bottom: 15px;
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,0.5);
+	border: 2px solid #0f328b;
+}
+
+form > input {
+	border-radius: 5px;
+	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
+	border: 2px solid #0f328b;
+	color: #0f328b;
+}
+
+form > input:hover {
+	color: #c90000;
+	border: 2px solid #c90000;
 }
 
 textarea {
