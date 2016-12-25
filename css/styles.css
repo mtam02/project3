@@ -86,10 +86,7 @@ section {
 
 footer {
 	padding-top: 15px;
-	background-image: url("../images/.png");
-	background-size: cover;
- 	background-position: center top;
-	background-repeat: no-repeat;
+	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
 }
 
 @media only screen and (min-width: 667px) {
@@ -222,7 +219,7 @@ footer {
 }
 
 .white-overlay {
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0.85);
 	border-radius: 15px;
 }
 
@@ -352,6 +349,20 @@ footer {
 
 #contact {
 	background-image: url("../images/contact.jpg");
+	background-size: cover;
+ 	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#performances {
+	background-image: url("../images/performances.jpg");
+	background-size: cover;
+ 	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#computing {
+	background-image: url("../images/computing.jpg");
 	background-size: cover;
  	background-position: center top;
 	background-repeat: no-repeat;
