@@ -536,6 +536,11 @@ footer {
 	padding: 20px 0;
 }
 
+.og-grid li {
+	height: 165px;
+	margin: 10px 15px 0 15px;
+}
+
 .og-grid li.og-expanded > a::after {
 	border-bottom-color: rgba(142,231,255,0.95);
 }
@@ -559,6 +564,10 @@ footer {
 .og-details p {
 	color: #00763a;
 	font-size: 19px;
+}
+
+.og-details a {
+	font-size: 15px;
 }
 
 .og-details a, .og-details a:focus {
@@ -683,12 +692,24 @@ footer {
 		margin-left: 0;
 	}
 
+	.og-fullimg {
+		width: 40%;
+	}
+
+	.og-details {
+		width: 60%;
+	}
+
 	.og-details h3 {
 		font-size: 28px;
 	}
 
 	.og-details p {
 		font-size: 20px;
+	}
+
+	.og-details a {
+		font-size: 16px;
 	}
 
 	.og-expander-inner {
@@ -779,6 +800,10 @@ footer {
 
 	.og-details p {
 		font-size: 21px;
+	}
+
+	.og-details a {
+		font-size: 17px;
 	}
 
 	.og-close {
