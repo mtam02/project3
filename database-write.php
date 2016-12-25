@@ -21,5 +21,5 @@
 	// 4. Close database connection
 	mysqli_close($connection);
 
-	header("Location: database-read.php");
+	header("Location: contact-thanks.php");
 ?>

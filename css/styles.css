@@ -38,9 +38,35 @@ h4, h4 > a {
 	margin-top: 6px;
 }
 
-p, li, label {
+p, li, label, input, textarea {
 	margin-top: 0;
 	font-size: 19px;
+}
+
+form > div {
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	max-width: 200px;
+}
+
+label {
+	font-weight: normal;
+	color: #c90000;
+	text-align: left;
+	margin-right: 15px;
+}
+
+div > input, textarea {
+	border-radius: 5px;
+	margin-bottom: 15px;
+	background: rgba(255,255,255,0.9);
+}
+
+textarea {
+	height: 150px;
+	resize: none;
+	overflow-y: auto;
 }
 
 ul, ol {
@@ -109,8 +135,12 @@ footer {
 		margin-top: 7px;
 	}
 
-	p, li, label {
+	p, li, label, input, textarea {
 		font-size: 20px;
+	}
+
+	form > div {
+		max-width: 500px;
 	}
 
 	ul, ol {
@@ -141,8 +171,12 @@ footer {
 		margin-top: 8px;
 	}
 
-	p, li, label {
+	p, li, label, input, textarea {
 		font-size: 21px;
+	}
+
+	textarea {
+		height: 200px;
 	}
 
 	ul, ol {
@@ -349,13 +383,6 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#contact {
-	background-image: url("../images/contact.jpg");
-	background-size: cover;
- 	background-position: center top;
-	background-repeat: no-repeat;
-}
-
 #performances {
 	background-image: url("../images/performances.jpg");
 	background-size: cover;
@@ -368,6 +395,18 @@ footer {
 	background-size: cover;
  	background-position: center top;
 	background-repeat: no-repeat;
+}
+
+#contact, #contact_thanks {
+	background-image: url("../images/contact.jpg");
+	background-size: cover;
+ 	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#contact p {
+	text-align: left;
+	padding-bottom: 15px;
 }
 
 #colophon {
