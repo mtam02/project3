@@ -44,8 +44,6 @@
 			
 		<?php include "inc/footer.inc";?>
 
-	
-	
 	<?php include "inc/scripts.inc";?>
 	<script src="js/basic_validate.js"></script>
 	<script src="js/email_validate.js"></script>

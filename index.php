@@ -232,7 +232,6 @@
 		<?php include "inc/footer.inc";?>
 
 	<?php include "inc/scripts.inc";?>
-    <script src="js/jquery.mobile.custom.min.js"></script>
 	
 	</body>
 
