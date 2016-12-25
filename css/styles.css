@@ -555,6 +555,11 @@ footer {
 	border-radius: 15px;
 }
 
+.og-details {
+	width: calc(100% - 50px);
+	padding-right: 0;
+}
+
 .og-details h3 {
 	margin: 0;
 	padding-top: 0;
@@ -697,7 +702,7 @@ footer {
 	}
 
 	.og-details {
-		width: 60%;
+		width: calc(60% - 20px);
 	}
 
 	.og-details h3 {
