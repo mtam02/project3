@@ -69,6 +69,9 @@ form > input {
 	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
 	border: 1px solid #0f328b;
 	color: #0f328b;
+	margin-bottom: 1px;
+	padding: 3px 6px;
+	line-height: 1;
 }
 
 form > input:hover {
@@ -439,7 +442,8 @@ footer {
 	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
 	border: 1px solid #0f328b;
 	color: #0f328b;
-	padding: 2.5px 6px;
+	padding: 3px 6px;
+	line-height: 1;
 }
 
 #contact_thanks a:hover {
