@@ -35,7 +35,7 @@
 
         		<div class="overlay-content-container white-overlay">
 
-        			<h2>Education and Qualifications</h2>
+        			<h2>Education</h2>
 
         			<div class="overlay-content">
 
@@ -81,7 +81,7 @@
 				        <div class="accomplishments">
 
 				        	<div class="accomplishments-img">
-				        		<img src="images/minghangtam.jpg" alt="minghangtam">
+				        		<img src="images/tcl.png" alt="tcl">
 				        	</div>
 
 				        	<div class="accomplishments-text">
@@ -96,7 +96,7 @@
 				        <div class="accomplishments">
 
 				        	<div class="accomplishments-img">
-				        		<img src="images/minghangtam.jpg" alt="minghangtam">
+				        		<img src="images/abrsm.png" alt="abrsm">
 				        	</div>
 
 				        	<div class="accomplishments-text">
