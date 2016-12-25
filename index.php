@@ -1,4 +1,4 @@
-<?php $parentTitle = "Ming Hang Tam"; $currentBody = "body_red"; include "inc/top.inc";?>
+<?php $parentTitle = "Ming Hang Tam"; include "inc/top.inc";?>
 
 		<?php include "inc/nav.inc";?>
 

@@ -1,4 +1,4 @@
-<?php $parentTitle = "Ming Hang Tam"; $currentTitle = "Contact"; $separator = " - "; $currentBody = "body_blue"; include "inc/top.inc";?>
+<?php $parentTitle = "Ming Hang Tam"; $currentTitle = "Contact"; $separator = " - "; include "inc/top.inc";?>
 
 		<?php include "inc/nav.inc";?>
 

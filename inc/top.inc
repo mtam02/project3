@@ -17,4 +17,4 @@
 		<title><?php if (isset($currentTitle)) { echo $currentTitle; } ?><?php if (isset($separator)) { echo $separator; } ?><?php if (isset($parentTitle)) { echo $parentTitle; } ?></title>
 	</head>
 
-	<body class="<?php echo $currentBody; ?>">
+	<body>

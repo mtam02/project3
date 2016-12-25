@@ -1,4 +1,4 @@
-<?php $parentTitle = "Ming Hang Tam"; $currentTitle = "Contact"; $separator = " - "; $currentBody = "body_blue"; include "inc/top.inc";?>
+<?php $parentTitle = "Ming Hang Tam"; $currentTitle = "Contact"; $separator = " - "; include "inc/top.inc";?>
 
 		<?php include "inc/nav.inc";?>
 
@@ -12,7 +12,9 @@
 
 					<div class="overlay-content">
 
-						<p>Thank you for visiting this website. Should you have any enquiries, please feel free to leave me a message in the contact form below.</p>
+						<p>Thank you for visiting this website.</p>
+
+						<p>Should you have any enquiries, please feel free to leave me a message in the contact form below.</p>
 
 						<form method="post" action="database-write.php" name="myForm" onsubmit="return(validate());">
 

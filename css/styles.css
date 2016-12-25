@@ -47,7 +47,7 @@ form > div {
 	display: flex;
 	margin: 0 auto;
 	flex-direction: column;
-	max-width: 200px;
+	max-width: 400px;
 }
 
 label {
@@ -61,19 +61,19 @@ div > input, textarea {
 	border-radius: 5px;
 	margin-bottom: 15px;
 	background: rgba(255,255,255,0.5);
-	border: 2px solid #0f328b;
+	border: 1px solid #0f328b;
 }
 
 form > input {
 	border-radius: 5px;
 	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
-	border: 2px solid #0f328b;
+	border: 1px solid #0f328b;
 	color: #0f328b;
 }
 
 form > input:hover {
 	color: #c90000;
-	border: 2px solid #c90000;
+	border: 1px solid #c90000;
 }
 
 textarea {
@@ -88,18 +88,19 @@ ul, ol {
 }
 
 a {
+	color: #00763a;
 	font-size: 18px;
 	font-family: "Gentium Book Basic", serif;
 }
 
 a:focus {
-	color: rgba(255,255,255,1);
+	color: #00763a;
 	text-decoration: none;
 }
 
 a:hover {
-	color: rgba(255,255,255,0.6);
-	text-decoration: none;
+	color: #00763a;
+	text-decoration: underline;
 }
 
 h4 > a:focus {
@@ -153,7 +154,7 @@ footer {
 	}
 
 	form > div {
-		max-width: 500px;
+		max-width: 450px;
 	}
 
 	ul, ol {
@@ -186,6 +187,10 @@ footer {
 
 	p, li, label, input, textarea {
 		font-size: 21px;
+	}
+
+	form > div {
+		max-width: 500px;
 	}
 
 	textarea {
@@ -417,9 +422,30 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#contact p {
-	text-align: left;
+#contact p:last-of-type {
 	padding-bottom: 15px;
+}
+
+#contact_thanks p:last-of-type {
+	padding-bottom: 5px;
+}
+
+#contact_thanks a {
+	font-size: 19px;
+}
+
+#contact_thanks a, #contact_thanks a:focus {
+	border-radius: 5px;
+	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
+	border: 1px solid #0f328b;
+	color: #0f328b;
+	padding: 2.5px 6px;
+}
+
+#contact_thanks a:hover {
+	text-decoration: none;
+	color: #c90000;
+	border: 1px solid #c90000;
 }
 
 #colophon {
@@ -629,6 +655,10 @@ footer {
 		font-size: 32px;
 	}
 
+	#contact_thanks a {
+		font-size: 20px;
+	}
+
 	#colophon img {
 		width: 175px;
 	}
@@ -711,6 +741,10 @@ footer {
 
 	#overview h3 {
 		font-size: 40px;
+	}
+
+	#contact_thanks a {
+		font-size: 21px;
 	}
 
 	#colophon img {
