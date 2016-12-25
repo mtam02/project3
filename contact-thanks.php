@@ -12,7 +12,9 @@
 
 					<div class="overlay-content">
 
-						<p>Your message has been received. Thank you.</p>
+						<p>Your message has been received.</p>
+
+						<p>Thank you.</p>
 
 						<a href="./">Back to Home</a>
 
