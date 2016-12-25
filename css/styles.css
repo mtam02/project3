@@ -65,13 +65,13 @@ div > input, textarea {
 }
 
 form > input {
+	line-height: 1;
 	border-radius: 5px;
 	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
 	border: 1px solid #0f328b;
 	color: #0f328b;
 	margin-bottom: 1px;
-	padding: 3px 6px;
-	line-height: 1;
+	padding: 5px 10px;
 }
 
 form > input:hover {
@@ -438,12 +438,12 @@ footer {
 }
 
 #contact_thanks a, #contact_thanks a:focus {
+	line-height: 1;
 	border-radius: 5px;
 	background: linear-gradient(to right, rgba(231,255,142,0.95), rgba(142,231,255,0.95));
 	border: 1px solid #0f328b;
 	color: #0f328b;
-	padding: 3px 6px;
-	line-height: 1;
+	padding: 3px 10px;
 }
 
 #contact_thanks a:hover {

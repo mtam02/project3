@@ -14,7 +14,7 @@
 
 						<p>Your message has been received. Thank you.</p>
 
-						<a href="contact.php">Back</a>
+						<a href="./">Back to Home</a>
 
 					</div>
 
