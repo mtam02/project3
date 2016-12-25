@@ -10,27 +10,27 @@
 
 					<h2>Portfolio</h2>
 
-					<p>Click thumbnails below to see descriptions and links.</p>
+					<p>Click the thumbnails below to see descriptions and links.</p>
 
 					<div class="og-container">
 
 						<ul id="og-grid" class="og-grid">
 								
 							<li>
-								<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-								<img class="img-responsive" src="images/thumbs/1.jpg" alt="1">
+								<a href="lab09/" data-largesrc="images/doraemon.jpg" data-title="Doraemon Wiki" data-description="Worked as a team, Therese and I created a website that follows three webpage design principles of Z-pattern, F-pattern, and card layout.">
+								<img class="img-responsive" src="images/doraemon.jpg" alt="doraemon">
 								</a>
 							</li>
 								
 							<li>
-								<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-								<img src="images/thumbs/2.jpg" alt="2">
+								<a href="project2-team7/" data-largesrc="images/superhero.jpg" data-title="SuperHero Central" data-description="Worked as Team 7, I helped modify the framework set by Team 1 in their Project 2, based on their RFP. We ultimately incorporated a video into the slideshow using HTML5 video tag.">
+								<img class="img-responsive" src="images/superhero.jpg" alt="superhero">
 								</a>
 							</li>
 
 							<li>
-								<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
-								<img src="images/thumbs/3.jpg" alt="3">
+								<a href="project3_csc170/" data-largesrc="images/itceos.jpg" data-title="IT CEOs" data-description="In Spring 2015, I created my first website that features global and local navigation bars, with my first touches on CSS and JavaScript.">
+								<img src="images/itceos.jpg" alt="itceos">
 								</a>
 							</li>
 							

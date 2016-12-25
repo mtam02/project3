@@ -532,15 +532,59 @@ footer {
 	box-shadow: 2px 4px 3px rgba(51,51,51,0.5), 2px 4px 3px rgba(51,51,51,0.5);
 }
 
+.og-expander-inner {
+	padding: 20px 0;
+}
+
 .og-grid li.og-expanded > a::after {
 	border-bottom-color: rgba(142,231,255,0.95);
 }
 
 .og-grid > li > a > img {
-	max-height: 250px;
-	border-radius: 15px;
+	max-height: 150px;
 	box-shadow: 2px 4px 3px rgba(51,51,51,0.5), 2px 4px 3px rgba(51,51,51,0.5);
 	width: auto;
+}
+
+.og-grid img {
+	border-radius: 15px;
+}
+
+.og-details h3 {
+	margin: 0;
+	padding-top: 0;
+	font-size: 26px;
+}
+
+.og-details p {
+	color: #00763a;
+	font-size: 19px;
+}
+
+.og-details a, .og-details a:focus {
+	color: #0f328b;
+	border-color: #0f328b;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.og-details a:hover {
+	color: #c90000;
+	border-color: #c90000;
+}
+
+.og-close {
+	width: 22px;
+	height: 22px;
+}
+
+.og-close::before, .og-close::after {
+	height: 2px;
+	background: #0f328b;
+}
+
+.og-close:hover::before, .og-close:hover::after {
+	background: #c90000;
 }
 
 @media only screen and (min-width: 667px) {
@@ -639,6 +683,23 @@ footer {
 		margin-left: 0;
 	}
 
+	.og-details h3 {
+		font-size: 28px;
+	}
+
+	.og-details p {
+		font-size: 20px;
+	}
+
+	.og-expander-inner {
+		padding: 30px 35px;
+	}
+
+	.og-close {
+		width: 26px;
+		height: 26px;
+	}
+
 }
 
 @media only screen and (min-width: 1069px) {
@@ -710,6 +771,19 @@ footer {
 
 	#contact_thanks a {
 		font-size: 21px;
+	}
+
+	.og-details h3 {
+		font-size: 34px;
+	}
+
+	.og-details p {
+		font-size: 21px;
+	}
+
+	.og-close {
+		width: 30px;
+		height: 30px;
 	}
 
 }
