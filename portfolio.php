@@ -41,7 +41,7 @@
 							</li>
 
 							<li>
-								<a href="http://urcsc170.org/examples/mtam2/project3/" data-largesrc="images/itceos.jpg" data-title="Website: IT CEOs" data-description="In Spring 2015, I created my first website that features global and local navigation bars, with my first touches on CSS and JavaScript.">
+								<a href="http://urcsc170.org/examples/mtam2/project3/" data-largesrc="images/itceos.jpg" data-title="Website: IT CEOs" data-description="In Spring 2016, I created my first website that features global and local navigation bars, with my first touches on CSS and JavaScript.">
 								<img class="img-responsive" src="images/itceos.jpg" alt="itceos">
 								</a>
 							</li>
